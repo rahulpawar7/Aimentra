@@ -1,0 +1,577 @@
+{
+  "passed": 95,
+  "failed": 0,
+  "total": 95,
+  "results": [
+    {
+      "ok": true,
+      "name": "GET /health",
+      "detail": "{\"status\":\"ok\",\"timestamp\":\"2026-08-08T11:57:17.537Z\",\"service\":\"aimentra-api\"}",
+      "at": "11:57:17"
+    },
+    {
+      "ok": true,
+      "name": "GET /plans",
+      "detail": "count=3",
+      "at": "11:57:17"
+    },
+    {
+      "ok": true,
+      "name": "GET /courses",
+      "detail": "count=3 first=finance-for-entrepreneurs",
+      "at": "11:57:17"
+    },
+    {
+      "ok": true,
+      "name": "GET /cms",
+      "detail": "hero,stats,faq,footer,about,terms,privacy,refund",
+      "at": "11:57:17"
+    },
+    {
+      "ok": true,
+      "name": "GET /testimonials",
+      "detail": "",
+      "at": "11:57:17"
+    },
+    {
+      "ok": true,
+      "name": "POST /auth/register",
+      "detail": "e2e_1786190237596@test.local",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "POST /auth/verify-email",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "POST /auth/login (student)",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /auth/me",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "POST /auth/forgot-password",
+      "detail": "token issued",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "POST /orders create",
+      "detail": "free plan",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "POST /orders/verify (mock)",
+      "detail": "already paid / free",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /progress/my-courses",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /progress/continue-learning",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /progress/completed",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "POST /auth/login (admin)",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /admin/dashboard",
+      "detail": "status=200",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /admin/users",
+      "detail": "status=200",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /admin/plans",
+      "detail": "status=200",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /admin/orders",
+      "detail": "status=200",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /admin/coupons",
+      "detail": "status=200",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /admin/cms",
+      "detail": "status=200",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /admin/analytics",
+      "detail": "status=200",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /admin/audit-log",
+      "detail": "status=200",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "PUT /admin/cms/hero",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "Student blocked from /admin/dashboard",
+      "detail": "status=403",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "GET /courses/finance-for-entrepreneurs/curriculum",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "POST /auth/logout",
+      "detail": "",
+      "at": "11:57:18"
+    },
+    {
+      "ok": true,
+      "name": "UI mobile-360 /",
+      "detail": "http=200",
+      "at": "11:57:19"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: mobile-360 /",
+      "detail": "sw=360 cw=360",
+      "at": "11:57:20"
+    },
+    {
+      "ok": true,
+      "name": "UI mobile-360 /courses",
+      "detail": "http=200",
+      "at": "11:57:20"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: mobile-360 /courses",
+      "detail": "sw=360 cw=360",
+      "at": "11:57:21"
+    },
+    {
+      "ok": true,
+      "name": "UI mobile-360 /packages",
+      "detail": "http=200",
+      "at": "11:57:21"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: mobile-360 /packages",
+      "detail": "sw=360 cw=360",
+      "at": "11:57:22"
+    },
+    {
+      "ok": true,
+      "name": "UI mobile-360 /login",
+      "detail": "http=200",
+      "at": "11:57:22"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: mobile-360 /login",
+      "detail": "sw=360 cw=360",
+      "at": "11:57:23"
+    },
+    {
+      "ok": true,
+      "name": "UI mobile-360 /register",
+      "detail": "http=200",
+      "at": "11:57:23"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: mobile-360 /register",
+      "detail": "sw=360 cw=360",
+      "at": "11:57:24"
+    },
+    {
+      "ok": true,
+      "name": "UI mobile-360 /forgot-password",
+      "detail": "http=200",
+      "at": "11:57:24"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: mobile-360 /forgot-password",
+      "detail": "sw=360 cw=360",
+      "at": "11:57:25"
+    },
+    {
+      "ok": true,
+      "name": "UI mobile-360 /checkout",
+      "detail": "http=200",
+      "at": "11:57:25"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: mobile-360 /checkout",
+      "detail": "sw=360 cw=360",
+      "at": "11:57:26"
+    },
+    {
+      "ok": true,
+      "name": "UI mobile-360 login form fillable",
+      "detail": "",
+      "at": "11:57:26"
+    },
+    {
+      "ok": true,
+      "name": "UI tablet-768 /",
+      "detail": "http=200",
+      "at": "11:57:27"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: tablet-768 /",
+      "detail": "sw=768 cw=768",
+      "at": "11:57:28"
+    },
+    {
+      "ok": true,
+      "name": "UI tablet-768 /courses",
+      "detail": "http=200",
+      "at": "11:57:28"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: tablet-768 /courses",
+      "detail": "sw=768 cw=768",
+      "at": "11:57:29"
+    },
+    {
+      "ok": true,
+      "name": "UI tablet-768 /packages",
+      "detail": "http=200",
+      "at": "11:57:29"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: tablet-768 /packages",
+      "detail": "sw=768 cw=768",
+      "at": "11:57:30"
+    },
+    {
+      "ok": true,
+      "name": "UI tablet-768 /login",
+      "detail": "http=200",
+      "at": "11:57:30"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: tablet-768 /login",
+      "detail": "sw=768 cw=768",
+      "at": "11:57:31"
+    },
+    {
+      "ok": true,
+      "name": "UI tablet-768 /register",
+      "detail": "http=200",
+      "at": "11:57:31"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: tablet-768 /register",
+      "detail": "sw=768 cw=768",
+      "at": "11:57:32"
+    },
+    {
+      "ok": true,
+      "name": "UI tablet-768 /forgot-password",
+      "detail": "http=200",
+      "at": "11:57:32"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: tablet-768 /forgot-password",
+      "detail": "sw=768 cw=768",
+      "at": "11:57:33"
+    },
+    {
+      "ok": true,
+      "name": "UI tablet-768 /checkout",
+      "detail": "http=200",
+      "at": "11:57:33"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: tablet-768 /checkout",
+      "detail": "sw=768 cw=768",
+      "at": "11:57:34"
+    },
+    {
+      "ok": true,
+      "name": "UI desktop-1440 /",
+      "detail": "http=200",
+      "at": "11:57:34"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: desktop-1440 /",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:36"
+    },
+    {
+      "ok": true,
+      "name": "UI desktop-1440 /courses",
+      "detail": "http=200",
+      "at": "11:57:36"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: desktop-1440 /courses",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:37"
+    },
+    {
+      "ok": true,
+      "name": "UI desktop-1440 /packages",
+      "detail": "http=200",
+      "at": "11:57:37"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: desktop-1440 /packages",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:38"
+    },
+    {
+      "ok": true,
+      "name": "UI desktop-1440 /login",
+      "detail": "http=200",
+      "at": "11:57:38"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: desktop-1440 /login",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:39"
+    },
+    {
+      "ok": true,
+      "name": "UI desktop-1440 /register",
+      "detail": "http=200",
+      "at": "11:57:39"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: desktop-1440 /register",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:40"
+    },
+    {
+      "ok": true,
+      "name": "UI desktop-1440 /forgot-password",
+      "detail": "http=200",
+      "at": "11:57:40"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: desktop-1440 /forgot-password",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:41"
+    },
+    {
+      "ok": true,
+      "name": "UI desktop-1440 /checkout",
+      "detail": "http=200",
+      "at": "11:57:41"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: desktop-1440 /checkout",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:42"
+    },
+    {
+      "ok": true,
+      "name": "UI desktop-1440 login form fillable",
+      "detail": "",
+      "at": "11:57:42"
+    },
+    {
+      "ok": true,
+      "name": "UI student login redirects",
+      "detail": "http://localhost:3000/dashboard",
+      "at": "11:57:45"
+    },
+    {
+      "ok": true,
+      "name": "UI auth /dashboard",
+      "detail": "http=200",
+      "at": "11:57:46"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: auth /dashboard",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:46"
+    },
+    {
+      "ok": true,
+      "name": "UI auth /dashboard/courses",
+      "detail": "http=200",
+      "at": "11:57:46"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: auth /dashboard/courses",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:47"
+    },
+    {
+      "ok": true,
+      "name": "UI auth /dashboard/orders",
+      "detail": "http=200",
+      "at": "11:57:47"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: auth /dashboard/orders",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:48"
+    },
+    {
+      "ok": true,
+      "name": "UI auth /dashboard/profile",
+      "detail": "http=200",
+      "at": "11:57:48"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: auth /dashboard/profile",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:49"
+    },
+    {
+      "ok": true,
+      "name": "UI auth /dashboard/access",
+      "detail": "http=200",
+      "at": "11:57:49"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: auth /dashboard/access",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:50"
+    },
+    {
+      "ok": true,
+      "name": "UI auth /dashboard/certificates",
+      "detail": "http=200",
+      "at": "11:57:50"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: auth /dashboard/certificates",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:50"
+    },
+    {
+      "ok": true,
+      "name": "UI auth /packages",
+      "detail": "http=200",
+      "at": "11:57:50"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: auth /packages",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:51"
+    },
+    {
+      "ok": true,
+      "name": "UI auth /checkout?planId=6a76e5ca813cd10344f64ce3",
+      "detail": "http=200",
+      "at": "11:57:51"
+    },
+    {
+      "ok": true,
+      "name": "Responsive no-H-scroll: auth /checkout?planId=6a76e5ca813cd10344f64ce3",
+      "detail": "sw=1440 cw=1440",
+      "at": "11:57:52"
+    },
+    {
+      "ok": true,
+      "name": "UI /admin loads",
+      "detail": "http://localhost:3000/admin",
+      "at": "11:57:57"
+    },
+    {
+      "ok": true,
+      "name": "UI /admin/users",
+      "detail": "http=200",
+      "at": "11:57:57"
+    },
+    {
+      "ok": true,
+      "name": "UI /admin/plans",
+      "detail": "http=200",
+      "at": "11:57:57"
+    },
+    {
+      "ok": true,
+      "name": "UI /admin/courses",
+      "detail": "http=200",
+      "at": "11:57:57"
+    },
+    {
+      "ok": true,
+      "name": "UI /admin/orders",
+      "detail": "http=200",
+      "at": "11:57:57"
+    },
+    {
+      "ok": true,
+      "name": "UI mobile nav toggles",
+      "detail": "no obvious hamburger (links may be stacked)",
+      "at": "11:57:58"
+    }
+  ]
+}
